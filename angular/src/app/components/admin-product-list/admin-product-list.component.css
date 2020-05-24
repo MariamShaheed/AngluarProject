@@ -1,0 +1,10 @@
+.card{
+    display:inline-block;
+  }
+  
+    
+  @media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+  } 

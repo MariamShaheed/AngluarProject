@@ -1,0 +1,17 @@
+.card{
+  display:inline-block;
+}
+
+  
+@media (min-width: 768px) {
+  .card-columns {
+      column-count: 3;
+  }
+} 
+/* .custom-column {  
+ 
+  
+  padding: 5px;
+  box-sizing: border-box;  
+} */
+

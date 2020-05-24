@@ -1,0 +1,29 @@
+<h1>Shopping cart</h1>
+ <table class="table">
+<thead>
+    <tr>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Details</th>
+        <th>Price</th>
+    </tr>
+</thead>
+<tbody >
+    <tr *ngFor="let product of products" class=" py-4">
+    
+
+    <td><img class="thumbnail" [src]="product.picture" width="100px" height="100px" alt="Card image cap"></td>
+        
+        <td>{{product.title}}</td>
+        <td>{{product.details}}</td>
+        <td>{{product.price}}$</td>
+
+    </tr>
+   
+</tbody>
+</table>
+<!-- <br>
+<div class="text-center">
+    <h5>Number of your items</h5>
+    <div>{{products.length}}</div>
+</div> -->

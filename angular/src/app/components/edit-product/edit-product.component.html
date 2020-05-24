@@ -1,0 +1,23 @@
+<form class=" form-check">
+    <div class="form-group">
+      <label for="title" id="title" name="title">title</label>
+      <input type="text" name="title" [(ngModel)]="title"  class="form-control" id="exampleInputEmail1"   placeholder="Enter titleProduct"   >
+       
+    </div>
+     
+    <div class="form-group">
+      <label for="Picture" id="Picture"  name="Picture">Picture</label>
+      <input type="file" class="form-control" name="picture" [(ngModel)]="Picture" placeholder="image" accept="image/*"  >
+    </div>
+    <div class="form-group">
+        <label for="Price" id="Price" name="Price"> Price</label>
+        <input type="number" class="form-control" name="Price"  [(ngModel)]="price" placeholder="Price"   >
+      </div>
+      <div class="form-group">
+        <label for="details" id="details"  name="details">details</label>
+        <input type="text" class="form-control" name="details" [(ngModel)]="details" placeholder="details"   >
+      </div>
+      
+     
+    <button type="submit" class="btn btn-primary"  >Save</button>
+  </form>
